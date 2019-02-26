@@ -1,0 +1,4 @@
+#Tue Feb 26 13:18:55 CST 2019
+base.0=/home/jortiz/Documents/SEP/Build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

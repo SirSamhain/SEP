@@ -6,4 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".DeleteActivity">
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="388dp"
+        android:layout_height="135dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Are you sure you want to delete your account?"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="188dp"
+        android:layout_height="48dp"
+        android:text="confirm"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="189dp"
+        android:layout_height="48dp"
+        android:text="cancel"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="201dp" />
 </android.support.constraint.ConstraintLayout>

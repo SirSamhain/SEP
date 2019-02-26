@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Feb 26 13:18:55 CST 2019
+0.baseType=DIRECTORY
+0.base=/home/jortiz/Documents/SEP/Build/intermediates/dex/debug/mergeDexDebug/out
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".WorkoutLogActivity">
 
+    <ListView
+        android:layout_width="392dp"
+        android:layout_height="558dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/add_workout"
+        android:layout_width="387dp"
+        android:layout_height="48dp"
+        android:text="Add a workout"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="584dp" />
+
+    <Button
+        android:id="@+id/remove_workout"
+        android:layout_width="386dp"
+        android:layout_height="45dp"
+        android:text="Remove a workout"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="653dp" />
 </android.support.constraint.ConstraintLayout>
