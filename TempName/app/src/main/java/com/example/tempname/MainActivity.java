@@ -1,5 +1,6 @@
 package com.example.tempname;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -80,17 +81,33 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.app_form) {
+
+            Intent intent = new Intent(MainActivity.this, FormActivity.class);
+            startActivity(intent);
+
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.app_goals) {
 
-        } else if (id == R.id.nav_slideshow) {
+            Intent intent = new Intent(MainActivity.this, GoalActivity.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.app_logout) {
 
-        } else if (id == R.id.nav_share) {
+            //logout of the app
 
-        } else if (id == R.id.nav_send) {
+
+        } else if (id == R.id.app_settings) {
+
+            Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
+            startActivity(intent);
+
+
+        } else if (id == R.id.app_workout_log) {
+
+            Intent intent = new Intent(MainActivity.this, WorkoutLogActivity.class);
+            startActivity(intent);
+
 
         }
 
