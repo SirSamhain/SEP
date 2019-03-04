@@ -1,6 +1,10 @@
 package com.example.tempname;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,10 +17,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    public ImageView imgCircle = (ImageView)findViewById(R.id.imgCircle);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +48,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        drawCircle();
     }
 
     @Override
@@ -114,5 +122,22 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void drawCircle(){
+
+        int radius = 2;
+        Paint paint = new Paint();
+        paint.setColor(Color.BLUE);
+        paint.setStyle(Paint.Style.STROKE);
+
+        //create bitmap
+        Bitmap bmp = Bitmap.createBitmap(500,500,Bitmap.Config.ARGB_8888);
+
+        //create canvas
+        Canvas canvas = new Canvas(bmp);
+        canvas.drawCircle(bmp.getWidth()/2, bmp.getHeight()/2, radius, paint);
+        //show circle
+        imgCircle.setImageBitmap(bmp);
     }
 }
