@@ -1,30 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".WorkoutLogActivity">
 
-    <ListView
-        android:layout_width="392dp"
-        android:layout_height="558dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp" />
 
-    <Button
-        android:id="@+id/add_workout"
-        android:layout_width="387dp"
-        android:layout_height="48dp"
-        android:text="Add a workout"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="584dp" />
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/remove_workout"
-        android:layout_width="386dp"
-        android:layout_height="45dp"
-        android:text="Remove a workout"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="653dp" />
-</android.support.constraint.ConstraintLayout>
+        <Button
+            android:id="@+id/remove_workout"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="33dp"
+            android:text="Remove a workout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_workout" />
+
+        <Button
+            android:id="@+id/add_workout"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="584dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginBottom="21dp"
+            android:text="Add a workout"
+            app:layout_constraintBottom_toTopOf="@+id/remove_workout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>

@@ -1061,12 +1061,12 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_goal
 id add_workout
 id alertTitle
 id all
 id always
 id app_form
-id app_goal_list
 id app_goals
 id app_logout
 id app_settings
@@ -1185,6 +1185,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id remove_goal
 id remove_workout
 id reset_button
 id right

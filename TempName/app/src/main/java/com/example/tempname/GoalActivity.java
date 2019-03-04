@@ -13,9 +13,9 @@ public class GoalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_goal);
 
-        ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.activity_goal, testArray);
+        //ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.activity_goal, testArray);
 
-        ListView listView = (ListView) findViewById(R.id.app_goal_list);
-        listView.setAdapter(adapter);
+        //ListView listView = (ListView) findViewById(R.id.app_goal_list);
+        //listView.setAdapter(adapter);
     }
 }

@@ -23,7 +23,6 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    public ImageView imgCircle = (ImageView)findViewById(R.id.imgCircle);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -126,6 +125,7 @@ public class MainActivity extends AppCompatActivity
 
     public void drawCircle(){
 
+        final ImageView imgCircle = (ImageView)findViewById(R.id.imgCircle);
         int radius = 2;
         Paint paint = new Paint();
         paint.setColor(Color.BLUE);
