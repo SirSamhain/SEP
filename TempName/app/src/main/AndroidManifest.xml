@@ -13,12 +13,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SettingsActivity"></activity>
-        <activity android:name=".GoalActivity" />
-        <activity android:name=".WorkoutLogActivity" />
-        <activity android:name=".FormActivity" />
-        <activity android:name=".DeleteActivity" />
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".AddWorkoutActivity">
+            android:label="Add Workout"
+        </activity>
+        <activity android:name=".AddGoalActivity"
+            android:label="Add Goal"/>
+        <activity android:name=".SettingsActivity"
+            android:label="Settings"/>
+        <activity android:name=".GoalActivity"
+            android:label="Goals"/>
+        <activity android:name=".WorkoutLogActivity"
+            android:label="Workout Log"/>
+        <activity android:name=".FormActivity"
+            android:label="Form"/>
+        <activity android:name=".DeleteActivity"
+            android:label="Delete Account"/>
+        <activity android:name=".RegisterActivity"
+            android:label="Register"/>
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login">

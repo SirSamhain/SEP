@@ -22,12 +22,30 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.tempname.SettingsActivity" />
-        <activity android:name="com.example.tempname.GoalActivity" />
-        <activity android:name="com.example.tempname.WorkoutLogActivity" />
-        <activity android:name="com.example.tempname.FormActivity" />
-        <activity android:name="com.example.tempname.DeleteActivity" />
-        <activity android:name="com.example.tempname.RegisterActivity" />
+        <activity android:name="com.example.tempname.AddWorkoutActivity" >
+            android:label="Add Workout"
+        </activity>
+        <activity
+            android:name="com.example.tempname.AddGoalActivity"
+            android:label="Add Goal" />
+        <activity
+            android:name="com.example.tempname.SettingsActivity"
+            android:label="Settings" />
+        <activity
+            android:name="com.example.tempname.GoalActivity"
+            android:label="Goals" />
+        <activity
+            android:name="com.example.tempname.WorkoutLogActivity"
+            android:label="Workout Log" />
+        <activity
+            android:name="com.example.tempname.FormActivity"
+            android:label="Form" />
+        <activity
+            android:name="com.example.tempname.DeleteActivity"
+            android:label="Delete Account" />
+        <activity
+            android:name="com.example.tempname.RegisterActivity"
+            android:label="Register" />
         <activity
             android:name="com.example.tempname.LoginActivity"
             android:label="@string/title_activity_login" >
