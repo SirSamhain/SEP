@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TempName</string>
+    <string name="app_name">Achieve</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -15,7 +15,7 @@
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="prompt_confirm_password">Confirm Password</string>
-    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in">Achieve</string>
     <string name="action_register">Register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
