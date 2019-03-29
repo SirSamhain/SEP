@@ -1,54 +1,73 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-47:12
-MERGED from [com.android.support:design:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/13899383b44a837b131dd83ff2fa2688/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4d26f7c01bf2c3b5b76b56bd47fb76bd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jortiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/094de0da61c09cb2d383e661166d4b4f/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f20b8bba6af96006deae4c7a28e32b68/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/beec6f7c6b78c72214c68b6d4afd20b2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/3b3f6fd41af16217a75f88c7aa5ba0da/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/44458bebccbae3d58ded63b0218ea916/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ee294d75b95101d5ec255a63b6d9eaec/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c1c40be006ff098b257892bc0a3d731b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/274990d28fab21261fefe4b4aa2e4138/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/ec24dba43ede9f8a3c3f149fdb68b79b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c48aebad4cfcf81d39a1015fa3006f1c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a03c3780b00b50071a2ae17c342d06b5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/aad2a430bbfa045f82d16c3b883813e0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/2f7f1a2e49c3243d79998eee4cc988c4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/b6add591e725bbd399569b4483941be2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/f981eb24968c7166eac90e628809512e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/45b1efdb6e935ac50089046a9ef6b5e3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0acd96419a92048b90127925f0598b96/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/c7911186af3f9d80823ed4ca139d20b4/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/879fa3b7ab0cad434efd15aad6b76abe/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/9794fe5c0d45b5668f146c634bec5cee/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9b5dc0aa5a5fcc5e8b9bfeb897096e8d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8a652797d45babb6e2e84433336c9337/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fe20f468c1c7c35853eb8092e106af3e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/1f3e1108dc2ad7cd760e2259a5e4ad48/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5e54c8b9c63ea28838423987abfe93a3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/02d4a02438b86f1a2e053dd85f16327c/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d0a0c96c3a1efd450b230f0325cb6fbb/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/aa860834346d2de96c79dfb13ab075f0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b339d18012f7c8d65f277427c557895b/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-47:12
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-48:12
+MERGED from [com.android.support:design:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c4bba7d1d1d0f5bf6f6972791ccdde90/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/79921778d45d58fb85bb5beffa4c2fc0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jortiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6b6e02f4d37e3295ea03c2f9ffb5568e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/a6c33c6696bc2cb57d81b7e1ed5656f8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/9aa677564d442ac89508746083c457cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/4d3075436c355ee2750ace0a06d09789/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/59ad17269b396bdaeb95d88f7f1b526b/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/2394b73cdcda9b020bd1a22a9fb0fb32/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/2642eae70144790311337fa658f4b5b7/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/bc88726116014628d4a5ce6d4fe687e4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/f004f16a1aea05eb46cfe6dadc529987/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0cb56a0ea95e0d5a748b00a72e463c53/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/c3b1d17f16d5fdb484232ba41ade2cf7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/57fb4b70c497363c00a6606eaede8650/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/0f620b746b66fb7ecb39185c331e23d2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/6c8095ac04a9a4d2d93ab8ca47c8db25/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/67f08239636b5b568a8e68fa9d642522/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/7acaff35cb0c916ff2646e98a48fa3e8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/451845dc0faabea9d87c2a525fd01974/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/78891fbc77a0d56cff396a4953341e7d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/21b4fd8fe6daf99d995ea9b7116a6508/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/2749806a2943bde1dec6f04b2b327c84/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a5b4ef5974c094220a51d8591fff52d7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a2173b987fe4da8bee36a7090e260356/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/7acd3735fc327c88947be6441df82a1d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/72ad93ca9aad721a3a71616b8bc391f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/1ac529755b026a79d87704c2e689e21f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/b3ba4894f9e9d509bb34d71fb16d95ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/49e458e194cbc14a909a4d3cd7cd20b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/82d8292e0451a58efa61a5ca7093bf33/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cf239988199a1d5590e3fda2594cdad9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d1894f19d3953ec1b6537f504f199237/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8e7d357cc724ecdfefaabb9cca9e16d6/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/afeeed07479246779fd2585d2a87f1b1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/4cf80e0ab82750c37c09a1ce654fd4de/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/153c1590c41ffd81bb06115d1cb83e3a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/7421032f7783597221c2b093732c0736/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0b06693f97a23d33edc12106739bc332/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/d9d519f40dd1b7a3d5ecb1cb19f4ae06/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f7923477c8c871ef6d196d4917d2a6ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/61da3b284162e05e351568a39d54ad83/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a9e9ba6a87dbe7650fdbb93dccd7e279/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/bb9f3654595f784a26fa7d906d5e0667/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f5aa6ba3c57c168819854930a89cf920/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/948b9fe23d8cb87c016981dcb5db539f/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
 		INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-47:12
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-48:12
 		INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-47:12
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:1-48:12
 		INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:2:11-69
@@ -64,170 +83,258 @@ uses-permission#android.permission.READ_CONTACTS
 ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:7:5-72
 	android:name
 		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:7:22-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:8:22-64
 application
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:9:5-45:19
-MERGED from [com.android.support:design:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/13899383b44a837b131dd83ff2fa2688/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/13899383b44a837b131dd83ff2fa2688/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jortiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/094de0da61c09cb2d383e661166d4b4f/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jortiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/094de0da61c09cb2d383e661166d4b4f/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0acd96419a92048b90127925f0598b96/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0acd96419a92048b90127925f0598b96/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/c7911186af3f9d80823ed4ca139d20b4/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/c7911186af3f9d80823ed4ca139d20b4/AndroidManifest.xml:22:5-23:19
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:10:5-46:19
+MERGED from [com.android.support:design:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c4bba7d1d1d0f5bf6f6972791ccdde90/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c4bba7d1d1d0f5bf6f6972791ccdde90/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jortiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6b6e02f4d37e3295ea03c2f9ffb5568e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jortiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6b6e02f4d37e3295ea03c2f9ffb5568e/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/a6c33c6696bc2cb57d81b7e1ed5656f8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/a6c33c6696bc2cb57d81b7e1ed5656f8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/4d3075436c355ee2750ace0a06d09789/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/4d3075436c355ee2750ace0a06d09789/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/59ad17269b396bdaeb95d88f7f1b526b/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/59ad17269b396bdaeb95d88f7f1b526b/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/2394b73cdcda9b020bd1a22a9fb0fb32/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/2394b73cdcda9b020bd1a22a9fb0fb32/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/2642eae70144790311337fa658f4b5b7/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/2642eae70144790311337fa658f4b5b7/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/bc88726116014628d4a5ce6d4fe687e4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/bc88726116014628d4a5ce6d4fe687e4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/f004f16a1aea05eb46cfe6dadc529987/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/f004f16a1aea05eb46cfe6dadc529987/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0cb56a0ea95e0d5a748b00a72e463c53/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0cb56a0ea95e0d5a748b00a72e463c53/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/c3b1d17f16d5fdb484232ba41ade2cf7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/c3b1d17f16d5fdb484232ba41ade2cf7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/57fb4b70c497363c00a6606eaede8650/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/57fb4b70c497363c00a6606eaede8650/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/0f620b746b66fb7ecb39185c331e23d2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/0f620b746b66fb7ecb39185c331e23d2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cf239988199a1d5590e3fda2594cdad9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cf239988199a1d5590e3fda2594cdad9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d1894f19d3953ec1b6537f504f199237/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d1894f19d3953ec1b6537f504f199237/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8e7d357cc724ecdfefaabb9cca9e16d6/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8e7d357cc724ecdfefaabb9cca9e16d6/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/948b9fe23d8cb87c016981dcb5db539f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/948b9fe23d8cb87c016981dcb5db539f/AndroidManifest.xml:22:5-20
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0acd96419a92048b90127925f0598b96/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d1894f19d3953ec1b6537f504f199237/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:15:9-40
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:16:9-40
 activity#com.example.tempname.AddWorkoutActivity
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:16:9-17:43
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:17:9-18:43
 	android:label
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:17:13-40
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:18:13-40
 	android:name
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:16:19-53
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:17:19-53
 activity#com.example.tempname.AddGoalActivity
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:18:9-19:39
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:19:9-20:39
 	android:label
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:19:13-37
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:18:19-50
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:19:19-50
 activity#com.example.tempname.SettingsActivity
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:20:9-21:39
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:21:9-22:39
 	android:label
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:21:13-37
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:20:19-51
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:21:19-51
 activity#com.example.tempname.GoalActivity
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:22:9-23:36
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:23:9-24:36
 	android:label
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:23:13-34
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:24:13-34
 	android:name
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:22:19-47
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:23:19-47
 activity#com.example.tempname.WorkoutLogActivity
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:24:9-25:42
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:25:9-26:42
 	android:label
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:25:13-40
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:26:13-40
 	android:name
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:24:19-53
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:25:19-53
 activity#com.example.tempname.FormActivity
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:26:9-27:35
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:27:9-28:35
 	android:label
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:27:13-33
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:28:13-33
 	android:name
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:26:19-47
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:27:19-47
 activity#com.example.tempname.DeleteActivity
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:28:9-29:45
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:29:9-30:45
 	android:label
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:29:13-43
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:30:13-43
 	android:name
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:28:19-49
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:29:19-49
 activity#com.example.tempname.RegisterActivity
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:30:9-31:39
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:31:9-32:39
 	android:label
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:31:13-37
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:30:19-51
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:31:19-51
 activity#com.example.tempname.LoginActivity
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:32:9-40:20
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:33:9-41:20
 	android:label
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:34:13-57
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:35:13-57
 	android:name
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:33:13-42
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:34:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:35:13-39:29
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:36:17-69
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:36:25-66
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:38:17-77
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:38:27-74
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:39:27-74
 activity#com.example.tempname.MainActivity
-ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:41:9-44:59
+ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:42:9-45:59
 	android:label
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:43:13-45
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:44:13-45
 	android:theme
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:44:13-56
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:45:13-56
 	android:name
-		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:42:13-41
+		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml:43:13-41
 uses-sdk
 INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
 INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/13899383b44a837b131dd83ff2fa2688/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/13899383b44a837b131dd83ff2fa2688/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4d26f7c01bf2c3b5b76b56bd47fb76bd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4d26f7c01bf2c3b5b76b56bd47fb76bd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jortiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/094de0da61c09cb2d383e661166d4b4f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jortiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/094de0da61c09cb2d383e661166d4b4f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f20b8bba6af96006deae4c7a28e32b68/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f20b8bba6af96006deae4c7a28e32b68/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/beec6f7c6b78c72214c68b6d4afd20b2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/beec6f7c6b78c72214c68b6d4afd20b2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/3b3f6fd41af16217a75f88c7aa5ba0da/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/3b3f6fd41af16217a75f88c7aa5ba0da/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/44458bebccbae3d58ded63b0218ea916/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/44458bebccbae3d58ded63b0218ea916/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ee294d75b95101d5ec255a63b6d9eaec/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ee294d75b95101d5ec255a63b6d9eaec/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c1c40be006ff098b257892bc0a3d731b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c1c40be006ff098b257892bc0a3d731b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/274990d28fab21261fefe4b4aa2e4138/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/274990d28fab21261fefe4b4aa2e4138/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/ec24dba43ede9f8a3c3f149fdb68b79b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/ec24dba43ede9f8a3c3f149fdb68b79b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c48aebad4cfcf81d39a1015fa3006f1c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c48aebad4cfcf81d39a1015fa3006f1c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a03c3780b00b50071a2ae17c342d06b5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a03c3780b00b50071a2ae17c342d06b5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/aad2a430bbfa045f82d16c3b883813e0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/aad2a430bbfa045f82d16c3b883813e0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/2f7f1a2e49c3243d79998eee4cc988c4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/2f7f1a2e49c3243d79998eee4cc988c4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/b6add591e725bbd399569b4483941be2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/b6add591e725bbd399569b4483941be2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/f981eb24968c7166eac90e628809512e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/f981eb24968c7166eac90e628809512e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/45b1efdb6e935ac50089046a9ef6b5e3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/45b1efdb6e935ac50089046a9ef6b5e3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0acd96419a92048b90127925f0598b96/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0acd96419a92048b90127925f0598b96/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/c7911186af3f9d80823ed4ca139d20b4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/c7911186af3f9d80823ed4ca139d20b4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/879fa3b7ab0cad434efd15aad6b76abe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/879fa3b7ab0cad434efd15aad6b76abe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/9794fe5c0d45b5668f146c634bec5cee/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/9794fe5c0d45b5668f146c634bec5cee/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9b5dc0aa5a5fcc5e8b9bfeb897096e8d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9b5dc0aa5a5fcc5e8b9bfeb897096e8d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8a652797d45babb6e2e84433336c9337/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8a652797d45babb6e2e84433336c9337/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fe20f468c1c7c35853eb8092e106af3e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fe20f468c1c7c35853eb8092e106af3e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/1f3e1108dc2ad7cd760e2259a5e4ad48/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/1f3e1108dc2ad7cd760e2259a5e4ad48/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5e54c8b9c63ea28838423987abfe93a3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5e54c8b9c63ea28838423987abfe93a3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/02d4a02438b86f1a2e053dd85f16327c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/02d4a02438b86f1a2e053dd85f16327c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d0a0c96c3a1efd450b230f0325cb6fbb/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d0a0c96c3a1efd450b230f0325cb6fbb/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/aa860834346d2de96c79dfb13ab075f0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/aa860834346d2de96c79dfb13ab075f0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b339d18012f7c8d65f277427c557895b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b339d18012f7c8d65f277427c557895b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c4bba7d1d1d0f5bf6f6972791ccdde90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c4bba7d1d1d0f5bf6f6972791ccdde90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/79921778d45d58fb85bb5beffa4c2fc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/79921778d45d58fb85bb5beffa4c2fc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jortiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6b6e02f4d37e3295ea03c2f9ffb5568e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jortiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6b6e02f4d37e3295ea03c2f9ffb5568e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/a6c33c6696bc2cb57d81b7e1ed5656f8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/a6c33c6696bc2cb57d81b7e1ed5656f8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/9aa677564d442ac89508746083c457cd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/9aa677564d442ac89508746083c457cd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/4d3075436c355ee2750ace0a06d09789/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/4d3075436c355ee2750ace0a06d09789/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/59ad17269b396bdaeb95d88f7f1b526b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/59ad17269b396bdaeb95d88f7f1b526b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/2394b73cdcda9b020bd1a22a9fb0fb32/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/2394b73cdcda9b020bd1a22a9fb0fb32/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/2642eae70144790311337fa658f4b5b7/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/2642eae70144790311337fa658f4b5b7/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/bc88726116014628d4a5ce6d4fe687e4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/bc88726116014628d4a5ce6d4fe687e4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/f004f16a1aea05eb46cfe6dadc529987/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/f004f16a1aea05eb46cfe6dadc529987/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0cb56a0ea95e0d5a748b00a72e463c53/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0cb56a0ea95e0d5a748b00a72e463c53/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/c3b1d17f16d5fdb484232ba41ade2cf7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/c3b1d17f16d5fdb484232ba41ade2cf7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/57fb4b70c497363c00a6606eaede8650/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/57fb4b70c497363c00a6606eaede8650/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/0f620b746b66fb7ecb39185c331e23d2/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/0f620b746b66fb7ecb39185c331e23d2/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/6c8095ac04a9a4d2d93ab8ca47c8db25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/6c8095ac04a9a4d2d93ab8ca47c8db25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/67f08239636b5b568a8e68fa9d642522/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/67f08239636b5b568a8e68fa9d642522/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/7acaff35cb0c916ff2646e98a48fa3e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/7acaff35cb0c916ff2646e98a48fa3e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/451845dc0faabea9d87c2a525fd01974/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/451845dc0faabea9d87c2a525fd01974/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/78891fbc77a0d56cff396a4953341e7d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/78891fbc77a0d56cff396a4953341e7d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/21b4fd8fe6daf99d995ea9b7116a6508/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/21b4fd8fe6daf99d995ea9b7116a6508/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/2749806a2943bde1dec6f04b2b327c84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/2749806a2943bde1dec6f04b2b327c84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a5b4ef5974c094220a51d8591fff52d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a5b4ef5974c094220a51d8591fff52d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a2173b987fe4da8bee36a7090e260356/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a2173b987fe4da8bee36a7090e260356/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/7acd3735fc327c88947be6441df82a1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/7acd3735fc327c88947be6441df82a1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/72ad93ca9aad721a3a71616b8bc391f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/72ad93ca9aad721a3a71616b8bc391f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/1ac529755b026a79d87704c2e689e21f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/1ac529755b026a79d87704c2e689e21f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/b3ba4894f9e9d509bb34d71fb16d95ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/b3ba4894f9e9d509bb34d71fb16d95ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/49e458e194cbc14a909a4d3cd7cd20b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/49e458e194cbc14a909a4d3cd7cd20b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/82d8292e0451a58efa61a5ca7093bf33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/82d8292e0451a58efa61a5ca7093bf33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cf239988199a1d5590e3fda2594cdad9/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cf239988199a1d5590e3fda2594cdad9/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d1894f19d3953ec1b6537f504f199237/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d1894f19d3953ec1b6537f504f199237/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8e7d357cc724ecdfefaabb9cca9e16d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8e7d357cc724ecdfefaabb9cca9e16d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/afeeed07479246779fd2585d2a87f1b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/afeeed07479246779fd2585d2a87f1b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/4cf80e0ab82750c37c09a1ce654fd4de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/4cf80e0ab82750c37c09a1ce654fd4de/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/153c1590c41ffd81bb06115d1cb83e3a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/153c1590c41ffd81bb06115d1cb83e3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/7421032f7783597221c2b093732c0736/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/7421032f7783597221c2b093732c0736/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0b06693f97a23d33edc12106739bc332/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0b06693f97a23d33edc12106739bc332/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/d9d519f40dd1b7a3d5ecb1cb19f4ae06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/d9d519f40dd1b7a3d5ecb1cb19f4ae06/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f7923477c8c871ef6d196d4917d2a6ac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f7923477c8c871ef6d196d4917d2a6ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/61da3b284162e05e351568a39d54ad83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/61da3b284162e05e351568a39d54ad83/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a9e9ba6a87dbe7650fdbb93dccd7e279/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a9e9ba6a87dbe7650fdbb93dccd7e279/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/bb9f3654595f784a26fa7d906d5e0667/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/bb9f3654595f784a26fa7d906d5e0667/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f5aa6ba3c57c168819854930a89cf920/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f5aa6ba3c57c168819854930a89cf920/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/948b9fe23d8cb87c016981dcb5db539f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/948b9fe23d8cb87c016981dcb5db539f/AndroidManifest.xml:20:5-44
 INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
 INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/0f620b746b66fb7ecb39185c331e23d2/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
 		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
@@ -236,3 +343,207 @@ INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidM
 		INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
 		ADDED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
 		INJECTED from /home/jortiz/Documents/Projects/SEP/TempName/app/src/main/AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/af8e19f1120a6aad560ea6fd2b162233/AndroidManifest.xml:33:17-109
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/de33bcb2b3d30fd30028cf0b380879b1/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f157ccb12596ac542d219524e94120c/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/e9a981657550b183bc9c666e70e0f732/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:29:9-63
+permission#com.example.tempname.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:32:22-76
+uses-permission#com.example.tempname.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.tempname
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:48:27-58
+category#com.example.tempname
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/6a023d05d0a46bca31394934451dcbf3/AndroidManifest.xml:60:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/2394b73cdcda9b020bd1a22a9fb0fb32/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/2394b73cdcda9b020bd1a22a9fb0fb32/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/2394b73cdcda9b020bd1a22a9fb0fb32/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/2394b73cdcda9b020bd1a22a9fb0fb32/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/2642eae70144790311337fa658f4b5b7/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/2642eae70144790311337fa658f4b5b7/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/2642eae70144790311337fa658f4b5b7/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/2642eae70144790311337fa658f4b5b7/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/2642eae70144790311337fa658f4b5b7/AndroidManifest.xml:10:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/57fb4b70c497363c00a6606eaede8650/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/57fb4b70c497363c00a6606eaede8650/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/jortiz/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/57fb4b70c497363c00a6606eaede8650/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/0f620b746b66fb7ecb39185c331e23d2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cf239988199a1d5590e3fda2594cdad9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cf239988199a1d5590e3fda2594cdad9/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/0f620b746b66fb7ecb39185c331e23d2/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /home/jortiz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/0f620b746b66fb7ecb39185c331e23d2/AndroidManifest.xml:27:13-51
