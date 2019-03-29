@@ -5,26 +5,27 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
+    ir-eligibility="METHOD_ADDED"
     plugin-version="3.3.2"
-    timestamp="1553833228014"
+    timestamp="1553836944056"
     token="-2642939749776834231"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="96" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="14" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
 
     <artifact
-        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/resources/instant-run/debug/resources-debug.apk"
+        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
 
     <build
@@ -73,15 +74,6 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="IMPLEMENTED_INTERFACES_CHANGE"
-        timestamp="1553829107538"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
         timestamp="1553832344568"
         verifier="COLD_SWAP_REQUESTED" >
@@ -112,19 +104,23 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="FIELD_REMOVED"
-        timestamp="1553832606645"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1553833228014"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1553836674291"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="METHOD_ADDED"
+        timestamp="1553836944056"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
     </build>
 

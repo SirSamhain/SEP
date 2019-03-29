@@ -1,6 +1,7 @@
 package com.example.tempname;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -81,7 +82,10 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
-                    Toast.makeText(RegisterActivity.this, "Registration Successful!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, "Sucess!", Toast.LENGTH_SHORT).show();
+                    finish();
+                    Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
+                    startActivity(intent);
                 }else{
                     Toast.makeText(RegisterActivity.this, "Uh oh :( Something went wrong", Toast.LENGTH_SHORT).show();
 
