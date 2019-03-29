@@ -44,8 +44,6 @@ public class LoginActivity extends AppCompatActivity{
     // UI references.
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
-    private View mProgressView;
-    private View mLoginFormView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +67,6 @@ public class LoginActivity extends AppCompatActivity{
         mEmailRegisterButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                attemptLogin();
                 Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
                 startActivity(intent);
             }
@@ -80,13 +77,8 @@ public class LoginActivity extends AppCompatActivity{
             @Override
             public void onClick(View view) {
                 attemptLogin();
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(intent);
             }
         });
-
-        mLoginFormView = findViewById(R.id.login_form);
-        mProgressView = findViewById(R.id.login_progress);
     }
 
     private void attemptLogin() {
@@ -98,14 +90,6 @@ public class LoginActivity extends AppCompatActivity{
         String email = mEmailView.getText().toString().trim();
         String password = mPasswordView.getText().toString().trim();
 
-        View focusView = null;
-
-        // Check for a valid password, if the user entered one.
-        if (!TextUtils.isEmpty(password)){ //&& !isPasswordValid(password)) {
-            mPasswordView.setError(getString(R.string.error_invalid_password));
-            return;
-        }
-
         // Check for a valid email address.
         if (TextUtils.isEmpty(email)) {
             mEmailView.setError(getString(R.string.error_field_required));
@@ -114,6 +98,15 @@ public class LoginActivity extends AppCompatActivity{
             mEmailView.setError(getString(R.string.error_invalid_email));
             return;
         }
+
+        // Check for a valid password, if the user entered one.
+        if (TextUtils.isEmpty(password)){ //&& !isPasswordValid(password)) {
+            mPasswordView.setError(getString(R.string.error_invalid_password));
+            return;
+        }
+
+        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+        startActivity(intent);
     }
 
 
