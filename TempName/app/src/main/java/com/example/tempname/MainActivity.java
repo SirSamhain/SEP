@@ -6,6 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -18,33 +19,72 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private FirebaseAuth firebaseAuth;
+    private String userEmail;
+    private TextView textViewUserEmail;
+    private TextView textViewUserName;
+
+    private NavigationView navigationView;
+    private DrawerLayout drawer;
+    private ActionBarDrawerToggle toggle;
+    private View newHeaderView;
+    private Users user;
+    private FirebaseDatabase firebaseDatabase;
+    private DatabaseReference databaseReference;
+
+    private FirebaseUser fbuser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //THIS IS INITIALIZING EVERYTHING
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        drawer = findViewById(R.id.drawer_layout);
+        newHeaderView = navigationView.getHeaderView(0);
         firebaseAuth = FirebaseAuth.getInstance();
+        fbuser = firebaseAuth.getCurrentUser();
+        firebaseDatabase = firebaseDatabase.getInstance();
+        databaseReference = firebaseDatabase.getReference();
+
+
+
+
+        //IF THE USER IS LOGGED OUT THEN IT RETURNS THEM TO THE LOGIN PAGE
         if(firebaseAuth.getCurrentUser() == null){
             Toast.makeText(MainActivity.this, "Logged Out!", Toast.LENGTH_SHORT).show();
             finish();
             Intent intent = new Intent(MainActivity.this, LoginActivity.class);
             startActivity(intent);
         }
-        FirebaseUser user = firebaseAuth.getCurrentUser();
 
+        // THIS SETS THE USER INFORMATION THE DRAWER ON THE TOP LEFT
+        textViewUserEmail=newHeaderView.findViewById(R.id.textViewUserEmail);
+        userEmail = fbuser.getEmail();
+        textViewUserEmail.setText(userEmail);
+        textViewUserName = newHeaderView.findViewById(R.id.name);
+        getName();
+
+
+
+        // THIS SETS UP THE FLOATING MAIL ICON
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,13 +94,13 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+
+        //THIS TOGGLES THE NAVIGATION BAR TO BE CLOSED OR OPENED
+        toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         drawCircle();
     }
@@ -157,5 +197,22 @@ public class MainActivity extends AppCompatActivity
         canvas.drawCircle(bmp.getWidth()/2, bmp.getHeight()/2, radius, paint);
         //show circle
         imgCircle.setImageBitmap(bmp);
+    }
+
+    private void getName(){
+        databaseReference = databaseReference.child(fbuser.getUid());
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                String name = dataSnapshot.child("name").getValue().toString().trim();
+                textViewUserName.setText(name);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
     }
 }

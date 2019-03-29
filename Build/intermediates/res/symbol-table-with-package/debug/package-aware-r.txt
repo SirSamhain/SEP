@@ -1107,6 +1107,7 @@ id activity_chooser_view_content
 id add
 id add_goal
 id add_goal_button
+id add_goal_form
 id add_workout
 id adjust_height
 id adjust_width
@@ -1180,7 +1181,10 @@ id filled
 id fixed
 id forever
 id ghost_view
+id goal_description
+id goal_name
 id goal_weight
+id goals_spinner
 id gone
 id group_divider
 id groups
@@ -1204,6 +1208,7 @@ id left
 id light
 id line1
 id line3
+id linearLayout
 id listMode
 id list_item
 id login_form
@@ -1216,6 +1221,7 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id name
 id nav_send
 id nav_share
 id nav_view
@@ -1299,8 +1305,8 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id textView2
+id textViewUserEmail
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1323,6 +1329,7 @@ id unlabeled
 id up
 id useLogo
 id user_form
+id username
 id view_offset_helper
 id visible
 id wide
