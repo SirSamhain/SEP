@@ -200,12 +200,17 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void getName(){
-        databaseReference = databaseReference.child(fbuser.getUid());
+        databaseReference = databaseReference.child(fbuser.getUid()).child("user_info");
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                String name = dataSnapshot.child("name").getValue().toString().trim();
-                textViewUserName.setText(name);
+                if(dataSnapshot.child("name").exists()) {
+                    String name = dataSnapshot.child("name").getValue().toString().trim();
+                    textViewUserName.setText(name);
+                }else {
+                    Toast.makeText(MainActivity.this, "No Name", Toast.LENGTH_SHORT).show();
+                    textViewUserName.setText("no name");
+                }
             }
 
             @Override

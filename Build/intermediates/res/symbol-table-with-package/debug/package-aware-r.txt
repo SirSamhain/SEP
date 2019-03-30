@@ -1083,6 +1083,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id _dynamic
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1182,6 +1183,7 @@ id fixed
 id forever
 id ghost_view
 id goal_description
+id goal_list
 id goal_name
 id goal_weight
 id goals_spinner

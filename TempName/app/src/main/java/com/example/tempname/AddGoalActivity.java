@@ -1,5 +1,8 @@
 package com.example.tempname;
 
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -11,10 +14,25 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.util.ArrayList;
 
 public class AddGoalActivity extends AppCompatActivity {
-
+    //FIREBASE STUFF
+    private FirebaseAuth firebaseAuth;
+    private FirebaseUser fbuser;
+    private DatabaseReference databaseReference;
+    private FirebaseDatabase firebaseDatabase;
+    private ProgressDialog progressDialog;
+    ///////////////////
+    private Goals goal_object;
     private Spinner spinner;
     private ArrayList<String> goals = new ArrayList<>();
     private ArrayList<String> descriptions = new ArrayList<>();
@@ -30,14 +48,21 @@ public class AddGoalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_goal);
-
+        //initializing
+        progressDialog = new ProgressDialog(this);
         editTextGoalDescription = findViewById(R.id.goal_description);
         editTextGoalName        = findViewById(R.id.goal_name);
-
-        initGoals();
         spinner = (Spinner) findViewById(R.id.goals_spinner);
-        //getting the adapter to show all of the pre-made goals on the spinner
+        initGoals();
         arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, goals);
+        submit = (Button) findViewById(R.id.add_goal_button);
+        firebaseAuth = FirebaseAuth.getInstance();
+        fbuser = firebaseAuth.getCurrentUser();
+        firebaseDatabase = FirebaseDatabase.getInstance();
+        databaseReference = firebaseDatabase.getReference();
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        //getting the adapter to show all of the pre-made goals on the spinner
         arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(arrayAdapter);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -53,7 +78,6 @@ public class AddGoalActivity extends AppCompatActivity {
         });
 
         //this is the submit button which determines what to do if they have a pre-made goal selected or not
-        submit = (Button) findViewById(R.id.add_goal_button);
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -68,7 +92,6 @@ public class AddGoalActivity extends AppCompatActivity {
     }
 
     private void add_premade(int pos){
-        Toast.makeText(this, Integer.toString(pos), Toast.LENGTH_SHORT).show();
         String goal = goals.get(pos);
         String description = descriptions.get(pos);
         toDatabase(goal, description);
@@ -94,8 +117,23 @@ public class AddGoalActivity extends AppCompatActivity {
 
     }
 
-    private void toDatabase(String goal, String description){
-    
+    private void toDatabase(String goal, String description) {
+        progressDialog.setMessage("Adding Goal....");
+        progressDialog.show();
+        goal_object = new Goals(goal, description);
+        databaseReference.child(fbuser.getUid()).child("goals").child(goal).setValue(goal_object)
+                .addOnCompleteListener(this, new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        progressDialog.dismiss();
+                        Toast.makeText(AddGoalActivity.this, "Successfully added!", Toast.LENGTH_SHORT);
+                        Intent intent = new Intent(AddGoalActivity.this, GoalActivity.class);
+                        startActivity(intent);
+                    }
+                });
+
+
+
     }
 
     private void initGoals(){

@@ -1,4 +1,4 @@
-#Fri Mar 29 16:09:26 CDT 2019
-base.0=/home/jortiz/Documents/Projects/SEP/Build/intermediates/transforms/dexMerger/debug/10
+#Fri Mar 29 17:51:41 CDT 2019
+base.0=C\:\\Users\\joela\\Documents\\Projects\\SEP\\Build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.0=classes.dex
 renamed.0=classes.dex

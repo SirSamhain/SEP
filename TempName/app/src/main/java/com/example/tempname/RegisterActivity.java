@@ -99,19 +99,19 @@ public class RegisterActivity extends AppCompatActivity {
 
         progressDialog.setMessage("Registering User....");
         progressDialog.show();
-
+        final String e = email;
         firebaseAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     Toast.makeText(RegisterActivity.this, "Sucess!", Toast.LENGTH_SHORT).show();
-                    storeUser(name, username);
+                    storeUser(name, username, e);
                     finish();
                     Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
                     startActivity(intent);
                 }else{
                     Toast.makeText(RegisterActivity.this, "Uh oh :( Something went wrong", Toast.LENGTH_SHORT).show();
-
+                    progressDialog.dismiss();
                 }
             }
         });
@@ -120,10 +120,12 @@ public class RegisterActivity extends AppCompatActivity {
 
 
 
-    private void storeUser(String name, String username){
-        user = new Users(name, username);
+    private void storeUser(String name, String username, String email){
+        user = new Users(name, username, email);
         fbuser = firebaseAuth.getCurrentUser();
-        databaseReference.child(fbuser.getUid()).setValue(user);
+        databaseReference.child(fbuser.getUid()).child("user_info").setValue(user);
+        databaseReference.child(fbuser.getUid()).child("goals").push();
+
     }
 
 
