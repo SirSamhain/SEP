@@ -127,6 +127,7 @@ public class AddGoalActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<Void> task) {
                         progressDialog.dismiss();
                         Toast.makeText(AddGoalActivity.this, "Successfully added!", Toast.LENGTH_SHORT);
+                        finish();
                         Intent intent = new Intent(AddGoalActivity.this, GoalActivity.class);
                         startActivity(intent);
                     }

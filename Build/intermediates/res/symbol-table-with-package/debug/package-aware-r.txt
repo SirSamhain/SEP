@@ -689,9 +689,11 @@ color mtrl_textinput_default_box_stroke_color
 color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_hovered_box_stroke_color
+color not_pressed
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color pressed
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1058,6 +1060,7 @@ drawable ic_menu_slideshow
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable list_item_selector
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1110,6 +1113,7 @@ id add_goal
 id add_goal_button
 id add_goal_form
 id add_workout
+id add_workout_form
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1164,7 +1168,6 @@ id drawer_layout
 id editText
 id edit_query
 id email
-id email_login_form
 id email_register_button
 id email_sign_in_button
 id end
@@ -1211,9 +1214,9 @@ id light
 id line1
 id line3
 id linearLayout
+id linearLayout2
 id listMode
 id list_item
-id login_form
 id login_progress
 id masked
 id media_actions
@@ -1241,6 +1244,7 @@ id parent
 id parentPanel
 id parent_matrix
 id password
+id pause_workout_button
 id percent
 id pin
 id progress_circular
@@ -1314,6 +1318,7 @@ id textinput_counter
 id textinput_error
 id textinput_helper_text
 id time
+id timer
 id title
 id titleDividerNoCustom
 id title_template
@@ -1336,6 +1341,9 @@ id view_offset_helper
 id visible
 id wide
 id withText
+id workout_name
+id workout_type
+id workouts
 id wrap
 id wrap_content
 integer abc_config_activityDefaultDur
@@ -1532,6 +1540,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pause_workout_button
 string permission_rationale
 string project_id
 string prompt_confirm_password

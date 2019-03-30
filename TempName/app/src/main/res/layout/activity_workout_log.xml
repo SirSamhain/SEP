@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".WorkoutLogActivity">
@@ -11,36 +12,53 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/remove_workout"
-            android:layout_width="306dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginEnd="12dp"
-            android:layout_marginRight="12dp"
-            android:layout_marginBottom="33dp"
-            android:text="Remove a workout"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/add_workout" />
-
-        <Button
-            android:id="@+id/add_workout"
-            android:layout_width="293dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="11dp"
-            android:layout_marginLeft="11dp"
-            android:layout_marginTop="584dp"
-            android:layout_marginEnd="11dp"
-            android:layout_marginRight="11dp"
-            android:layout_marginBottom="21dp"
-            android:text="Add a workout"
+        <ListView
+            android:id="@+id/workouts"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="70dp"
+            android:listSelector="@drawable/list_item_selector"
             app:layout_constraintBottom_toTopOf="@+id/remove_workout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/add_workout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="59dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginRight="59dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/round_buttons"
+            android:text="Add a workout"
+            app:layout_constraintBottom_toTopOf="@+id/remove_workout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/remove_workout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="59dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginRight="59dp"
+            android:layout_marginBottom="53dp"
+            android:background="@drawable/round_buttons"
+            android:text="Remove a workout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/_dynamic" />
+
     </android.support.constraint.ConstraintLayout>
 
 

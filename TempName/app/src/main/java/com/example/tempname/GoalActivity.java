@@ -119,7 +119,7 @@ public class GoalActivity extends AppCompatActivity {
         String target = test.get(pos);
         target = target.split("\n", 2)[0].toString().trim();
         System.out.println(target);
-        Toast.makeText(this, "'"+target+"'", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Removed: "+target, Toast.LENGTH_SHORT).show();
         databaseReference.child(target).removeValue();
         databaseReference = firebaseDatabase.getReference();
     }
