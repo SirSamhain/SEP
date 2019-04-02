@@ -6,26 +6,23 @@
     density="560dpi"
     format="10"
     plugin-version="3.3.2"
-    timestamp="1554166299535"
+    timestamp="1554167220344"
     token="-5270533376723840338"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="10839" />
+        duration="8390" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="68" />
+        duration="53" />
     <task
         name="verifier"
-        duration="258" />
+        duration="70" />
 
-    <artifact
-        location="C:\Users\joela\Documents\Projects\SEP\Build\intermediates\resources\instant-run\debug\resources-debug.apk"
-        type="SPLIT" />
     <artifact
         location="C:\Users\joela\Documents\Projects\SEP\Build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
@@ -60,16 +57,16 @@
         location="C:\Users\joela\Documents\Projects\SEP\Build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
+        location="C:\Users\joela\Documents\Projects\SEP\Build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        type="SPLIT" />
+    <artifact
         location="C:\Users\joela\Documents\Projects\SEP\Build\intermediates\instant-run-apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1554166299535"
+        timestamp="1554167220344"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\joela\Documents\Projects\SEP\Build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\joela\Documents\Projects\SEP\Build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
@@ -102,6 +99,9 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\joela\Documents\Projects\SEP\Build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\joela\Documents\Projects\SEP\Build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\joela\Documents\Projects\SEP\Build\intermediates\instant-run-apk\debug\app-debug.apk"
