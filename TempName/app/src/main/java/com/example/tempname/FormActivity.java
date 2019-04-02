@@ -2,6 +2,7 @@ package com.example.tempname;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -61,7 +62,32 @@ public class FormActivity extends AppCompatActivity {
     }
 
     private void toDatabase(){
-        
+        String height = editTextHeight.getText().toString().trim();
+        String currentWeight = editTextCurrentWeight.getText().toString().trim();
+        String goalWeight = editTextGoalWeight.getText().toString().trim();
+        Boolean valid = true;
+
+        if(TextUtils.isEmpty(height)){
+            editTextHeight.setError("Please Enter a valid height");
+            valid = false;
+        }
+        if(TextUtils.isEmpty(currentWeight)){
+            editTextCurrentWeight.setError("Enter a valid weight");
+            valid = false;
+        }
+        if(TextUtils.isEmpty(goalWeight)){
+            editTextGoalWeight.setError("Enter a valid weight");
+            valid = false;
+        }
+        if(!valid){
+            return;
+        }
+
+
+        //////////push the information to the database here //////////////////////////////////////
+
+
+
     }
 
 
