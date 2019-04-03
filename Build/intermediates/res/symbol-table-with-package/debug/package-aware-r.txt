@@ -1149,7 +1149,6 @@ id container
 id content
 id contentPanel
 id coordinator
-id create_form
 id current_weight
 id custom
 id customPanel
@@ -1184,6 +1183,7 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id ft
 id ghost_view
 id goal_description
 id goal_list
@@ -1193,7 +1193,7 @@ id goals_spinner
 id gone
 id group_divider
 id groups
-id height
+id heightPrompt
 id home
 id homeAsUp
 id icon
@@ -1203,6 +1203,7 @@ id ifRoom
 id image
 id imageView
 id imgCircle
+id inches
 id info
 id invisible
 id italic

@@ -101,16 +101,18 @@ public class AddGoalActivity extends AppCompatActivity {
     private void add_custom(){
         String goal        = editTextGoalName.getText().toString().trim();
         String description = editTextGoalDescription.getText().toString().trim();
+        boolean valid = true;
 
 
         if(TextUtils.isEmpty(goal)){
             editTextGoalName.setError("Please enter a goal name");
-            return;
+            valid = false;
         }
         if(TextUtils.isEmpty(description)){
             editTextGoalDescription.setError("Please enter a description");
-            return;
+            valid = false;
         }
+        if(!valid){return;}
 
         Toast.makeText(this, goal + " " + description, Toast.LENGTH_SHORT);
         toDatabase(goal, description);

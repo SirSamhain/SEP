@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/background"
     android:layout_width="match_parent"
@@ -13,24 +14,43 @@
     tools:context=".FormActivity">
 
 
-
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
             android:id="@+id/user_form"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="250dp">
-
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
             <EditText
-                android:id="@+id/height"
+                android:id="@+id/heightPrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Height" />
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Height" />
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/ft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <Spinner
+                    android:id="@+id/inches"
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
 
             <EditText
                 android:id="@+id/current_weight"
@@ -46,10 +66,10 @@
 
             <Button
                 android:id="@+id/complete_form"
-                android:background="@drawable/round_buttons"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:background="@drawable/round_buttons"
                 android:text="Complete"
                 android:textStyle="bold" />
 

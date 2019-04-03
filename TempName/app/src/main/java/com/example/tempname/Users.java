@@ -17,6 +17,17 @@ public class Users {
         this.username = username;
     }
 
+    public String ft;
+    public String inches;
+    public String currentWeight;
+    public String goalWeight;
+
+    public Users(String ft, String inches,String currentWeight, String goalWeight){
+        this.ft = ft;
+        this.inches = inches;
+        this.currentWeight = currentWeight;
+        this.goalWeight = goalWeight;
+    }
 
 
 }

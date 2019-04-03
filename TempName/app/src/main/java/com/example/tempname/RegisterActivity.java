@@ -71,32 +71,33 @@ public class RegisterActivity extends AppCompatActivity {
         String confirmPassword = editTextConfirmPassword.getText().toString().trim();
         final String name = editTextName.getText().toString().trim();
         final String username = editTextUsername.getText().toString().trim();
+        boolean valid = true;
 
         if(TextUtils.isEmpty(username)){
             editTextConfirmPassword.setError("Enter valid username");
-            return;
+            valid = false;
         }
         if(TextUtils.isEmpty(name)){
             editTextConfirmPassword.setError("Enter valid name");
-            return;
+            valid = false;
         }
         if(TextUtils.isEmpty(email)){
             autoCompleteTextViewEmail.setError("Please enter a valid email");
-            return;
+            valid = false;
         }
         if(TextUtils.isEmpty(password)){
             editTextPassword.setError("Enter valid password");
-            return;
+            valid = false;
         }
         if(TextUtils.isEmpty(confirmPassword)){
             editTextConfirmPassword.setError("Enter valid password");
-            return;
+            valid = false;
         }
         if(!password.equals(confirmPassword)){
             editTextPassword.setError("Passwords don't match!!!");
-            return;
+            valid = false;
         }
-
+        if(!valid){return;}
         progressDialog.setMessage("Registering User....");
         progressDialog.show();
         final String e = email;

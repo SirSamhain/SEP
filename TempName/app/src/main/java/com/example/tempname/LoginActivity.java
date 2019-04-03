@@ -105,21 +105,23 @@ public class LoginActivity extends AppCompatActivity{
         // Store values at the time of the login attempt.
         String email = autoCompleteTextViewEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
+        boolean valid = true;
 
         // Check for a valid email address.
         if (TextUtils.isEmpty(email)) {
             autoCompleteTextViewEmail.setError(getString(R.string.error_field_required));
-            return;
+            valid = false;
         } else if (!email.contains("@")) {
             autoCompleteTextViewEmail.setError(getString(R.string.error_invalid_email));
-            return;
+            valid = false;
         }
 
         // Check for a valid password, if the user entered one.
         if (TextUtils.isEmpty(password)){ //&& !isPasswordValid(password)) {
             editTextPassword.setError(getString(R.string.error_invalid_password));
-            return;
+            valid = false;
         }
+        if(!valid){return;}
 
         progressDialog.setMessage("Checking Credentials");
         progressDialog.show();

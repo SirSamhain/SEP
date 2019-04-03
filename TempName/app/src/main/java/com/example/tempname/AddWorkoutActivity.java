@@ -104,15 +104,17 @@ public class AddWorkoutActivity extends AppCompatActivity {
 
         wName = workoutName.getText().toString().trim();
         wType = workoutType.getText().toString().trim();
+        boolean valid = true;
 
         if(TextUtils.isEmpty(wName)){
             workoutName.setError("Please enter a name for this workout");
-            return;
+            valid = false;
         }
         if(TextUtils.isEmpty(wType)){
             workoutName.setError("Please enter a type for this workout");
-            return;
+            valid = false;
         }
+        if(!valid){return;}
 
         timer = new Timer();
         timer.scheduleAtFixedRate(new TimerTask() {
