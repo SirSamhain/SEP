@@ -36,9 +36,15 @@ import com.google.firebase.database.ValueEventListener;
 
 import org.w3c.dom.Text;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
+import java.util.Locale;
 
 
 public class MainActivity extends AppCompatActivity
@@ -73,13 +79,10 @@ public class MainActivity extends AppCompatActivity
         fbuser = firebaseAuth.getCurrentUser();
         firebaseDatabase = firebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference();
-        mainGoal = (TextView) findViewById(R.id.primary_goal);
-        showPrimaryGoal();
-        if(!test.isEmpty()) {
-            mainGoal.setText(test.get(test.size()-1));
-        };
-
-
+        mainGoal = (TextView) findViewById(R.id.main_goal);
+        if(mainGoal != null) {
+            showPrimaryGoal();
+        }
         //IF THE USER IS LOGGED OUT THEN IT RETURNS THEM TO THE LOGIN PAGE
         if(firebaseAuth.getCurrentUser() == null){
             Toast.makeText(MainActivity.this, "Logged Out!", Toast.LENGTH_SHORT).show();
@@ -194,6 +197,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void getName(){
+        databaseReference = firebaseDatabase.getReference();
         databaseReference = databaseReference.child(fbuser.getUid()).child("user_info");
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
@@ -227,17 +231,11 @@ public class MainActivity extends AppCompatActivity
                 String localDate = dataSnapshot.child("date").toString().trim();
                 String goal = name + "\n" + desc + "\n" + primary + "\n" + localDate;
                 test.add(goal);
-                if(primary == 1 & !test.isEmpty()){
-                    for(int i = 0; i < test.size()-1; i++){
-                        if(Integer.parseInt(test.get(i).split("\n")[2]) == 1){
-                            name = test.get(i).split("\n")[0];
-                            desc = test.get(i).split("\n")[1];
-                            primary = 0;
-                            localDate = test.get(i).split("\n")[3];
-                            goal = name + "\n" + desc + "\n" + primary + "\n" + localDate;
-                            test.set(i, goal);
-                            Collections.swap(test, 0, test.size()-1);
-                        }
+                if(primary == 1 & !goal.isEmpty() & goal != null){
+                    try {
+                        set(goal);
+                    } catch (ParseException e) {
+                        e.printStackTrace();
                     }
                 }
             }
@@ -256,12 +254,28 @@ public class MainActivity extends AppCompatActivity
         });
 
 
-
-
-
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    private void set(String goal) throws ParseException {
+        String [] goalInfo = goal.split("\n");
 
+        String name = goalInfo[0];
+        String description = goalInfo[1];
+        String unpDate = goalInfo[3].split(",")[1].split("=")[1].trim();
+        String date = unpDate.substring(0,unpDate.length()-2);
+        LocalDate start = LocalDate.parse(date);
+
+        Period period = Period.between(start, LocalDate.now());
+        int diff = period.getDays();
+
+        System.out.println("*********************************************************************************************************");
+        System.out.println(diff);
+
+
+
+        mainGoal.setText(name + "\n\n" + description + "\n\nDays: " + diff);
+    }
 
 
 }

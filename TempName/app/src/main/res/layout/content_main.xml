@@ -9,6 +9,7 @@
     tools:showIn="@layout/app_bar_main">
 
     <TextView
+        android:background="@color/backgroundDark"
         android:id="@+id/main_goal"
         android:layout_width="303dp"
         android:layout_height="187dp"
@@ -26,7 +27,7 @@
         android:id="@+id/reset_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="348dp"
+        android:layout_marginBottom="204dp"
         android:background="@drawable/round_buttons"
         android:text="reset"
         app:layout_constraintBottom_toBottomOf="parent"

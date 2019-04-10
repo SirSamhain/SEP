@@ -25,6 +25,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -139,7 +140,7 @@ public class AddGoalActivity extends AppCompatActivity {
         }else{
             prim = 0;
         }
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd LLLL yyyy");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         String date = LocalDate.now().format(formatter);
         goal_object = new Goals(goal, description, prim, date);
         databaseReference.child(fbuser.getUid()).child("goals").child(goal).setValue(goal_object)
