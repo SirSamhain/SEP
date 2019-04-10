@@ -21,9 +21,12 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class GoalActivity extends AppCompatActivity {
     private ArrayList<String> test;
+    private ArrayList<Integer> status;
     private ArrayAdapter<String> adapter;
     private ListView goal_list;
 
@@ -39,6 +42,7 @@ public class GoalActivity extends AppCompatActivity {
         /////INITIALIZING
         setContentView(R.layout.activity_goal);
         test = new ArrayList<String>();
+        status = new ArrayList<Integer>();
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, test);
         firebaseAuth = FirebaseAuth.getInstance();
         fbuser = firebaseAuth.getCurrentUser();
@@ -86,8 +90,21 @@ public class GoalActivity extends AppCompatActivity {
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
                String name = dataSnapshot.child("goal").getValue().toString().trim();
                String desc = dataSnapshot.child("description").getValue().toString().trim();
+               int primary = Integer.parseInt(dataSnapshot.child("primary").getValue().toString().trim());
                String goal = name + "\n" + desc;
                test.add(goal);
+               status.add(primary);
+               if(primary == 1 & !status.isEmpty()){
+                   for(int i = 0; i < status.size()-1; i++){
+                       if(status.get(i) == 1){
+                           status.set(i, 0);
+                           String goalUpdate = test.get(i).split("\n")[0].trim(); // This gives you the name of the goal that was previously prim
+                           databaseReference=firebaseDatabase.getReference();
+                           databaseReference.child(fbuser.getUid()).child("goals").child(goalUpdate).child("primary").setValue("0");
+                           Collections.swap(test, 0, test.size()-1);
+                       }
+                   }
+               }
                adapter.notifyDataSetChanged();
             }
 

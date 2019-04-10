@@ -2,7 +2,9 @@ package com.example.tempname;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.os.Build;
 import android.support.annotation.NonNull;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -10,6 +12,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -22,6 +25,8 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 public class AddGoalActivity extends AppCompatActivity {
@@ -34,6 +39,7 @@ public class AddGoalActivity extends AppCompatActivity {
     ///////////////////
     private Goals goal_object;
     private Spinner spinner;
+    private CheckBox primary;
     private ArrayList<String> goals = new ArrayList<>();
     private ArrayList<String> descriptions = new ArrayList<>();
 
@@ -53,6 +59,7 @@ public class AddGoalActivity extends AppCompatActivity {
         editTextGoalDescription = findViewById(R.id.goal_description);
         editTextGoalName        = findViewById(R.id.goal_name);
         spinner = (Spinner) findViewById(R.id.goals_spinner);
+        primary = (CheckBox) findViewById(R.id.primary_goal);
         initGoals();
         arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, goals);
         submit = (Button) findViewById(R.id.add_goal_button);
@@ -79,6 +86,7 @@ public class AddGoalActivity extends AppCompatActivity {
 
         //this is the submit button which determines what to do if they have a pre-made goal selected or not
         submit.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public void onClick(View v) {
                 if(pos > 0){
@@ -91,6 +99,7 @@ public class AddGoalActivity extends AppCompatActivity {
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     private void add_premade(int pos){
         String goal = goals.get(pos);
         String description = descriptions.get(pos);
@@ -98,6 +107,7 @@ public class AddGoalActivity extends AppCompatActivity {
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     private void add_custom(){
         String goal        = editTextGoalName.getText().toString().trim();
         String description = editTextGoalDescription.getText().toString().trim();
@@ -119,10 +129,19 @@ public class AddGoalActivity extends AppCompatActivity {
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     private void toDatabase(String goal, String description) {
         progressDialog.setMessage("Adding Goal....");
         progressDialog.show();
-        goal_object = new Goals(goal, description);
+        int prim = 0;
+        if(primary.isChecked()){
+            prim = 1;
+        }else{
+            prim = 0;
+        }
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd LLLL yyyy");
+        String date = LocalDate.now().format(formatter);
+        goal_object = new Goals(goal, description, prim, date);
         databaseReference.child(fbuser.getUid()).child("goals").child(goal).setValue(goal_object)
                 .addOnCompleteListener(this, new OnCompleteListener<Void>() {
                     @Override
@@ -138,6 +157,8 @@ public class AddGoalActivity extends AppCompatActivity {
 
 
     }
+
+
 
     private void initGoals(){
         goals.add("Select or add your own goal!");

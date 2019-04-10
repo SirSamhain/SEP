@@ -73,5 +73,12 @@
 
     </android.support.constraint.ConstraintLayout>
 
+    <CheckBox
+        android:id="@+id/primary_goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Make Primary?" />
+
 
 </LinearLayout>

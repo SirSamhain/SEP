@@ -5,8 +5,11 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -24,11 +27,18 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+
+import org.w3c.dom.Text;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collections;
 
 
 public class MainActivity extends AppCompatActivity
@@ -38,15 +48,14 @@ public class MainActivity extends AppCompatActivity
     private String userEmail;
     private TextView textViewUserEmail;
     private TextView textViewUserName;
-
+    private ArrayList<String> test;
+    private TextView mainGoal;
     private NavigationView navigationView;
     private DrawerLayout drawer;
     private ActionBarDrawerToggle toggle;
     private View newHeaderView;
-    private Users user;
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
-
     private FirebaseUser fbuser;
 
     @Override
@@ -54,6 +63,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //THIS IS INITIALIZING EVERYTHING
+        test = new ArrayList<String>();
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -63,8 +73,11 @@ public class MainActivity extends AppCompatActivity
         fbuser = firebaseAuth.getCurrentUser();
         firebaseDatabase = firebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference();
-
-
+        mainGoal = (TextView) findViewById(R.id.primary_goal);
+        showPrimaryGoal();
+        if(!test.isEmpty()) {
+            mainGoal.setText(test.get(test.size()-1));
+        };
 
 
         //IF THE USER IS LOGGED OUT THEN IT RETURNS THEM TO THE LOGIN PAGE
@@ -102,7 +115,6 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
 
         navigationView.setNavigationItemSelectedListener(this);
-        drawCircle();
     }
 
     @Override
@@ -181,24 +193,6 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    public void drawCircle(){
-
-        final ImageView imgCircle = (ImageView)findViewById(R.id.imgCircle);
-        int radius = 2;
-        Paint paint = new Paint();
-        paint.setColor(Color.BLUE);
-        paint.setStyle(Paint.Style.STROKE);
-
-        //create bitmap
-        Bitmap bmp = Bitmap.createBitmap(500,500,Bitmap.Config.ARGB_8888);
-
-        //create canvas
-        Canvas canvas = new Canvas(bmp);
-        canvas.drawCircle(bmp.getWidth()/2, bmp.getHeight()/2, radius, paint);
-        //show circle
-        imgCircle.setImageBitmap(bmp);
-    }
-
     private void getName(){
         databaseReference = databaseReference.child(fbuser.getUid()).child("user_info");
         databaseReference.addValueEventListener(new ValueEventListener() {
@@ -220,4 +214,54 @@ public class MainActivity extends AppCompatActivity
         });
 
     }
+
+    private void showPrimaryGoal(){
+        databaseReference = databaseReference.child(fbuser.getUid()).child("goals");
+        databaseReference.addChildEventListener(new ChildEventListener() {
+            @RequiresApi(api = Build.VERSION_CODES.O)
+            @Override
+            public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                String name = dataSnapshot.child("goal").getValue().toString().trim();
+                String desc = dataSnapshot.child("description").getValue().toString().trim();
+                int primary = Integer.parseInt(dataSnapshot.child("primary").getValue().toString().trim());
+                String localDate = dataSnapshot.child("date").toString().trim();
+                String goal = name + "\n" + desc + "\n" + primary + "\n" + localDate;
+                test.add(goal);
+                if(primary == 1 & !test.isEmpty()){
+                    for(int i = 0; i < test.size()-1; i++){
+                        if(Integer.parseInt(test.get(i).split("\n")[2]) == 1){
+                            name = test.get(i).split("\n")[0];
+                            desc = test.get(i).split("\n")[1];
+                            primary = 0;
+                            localDate = test.get(i).split("\n")[3];
+                            goal = name + "\n" + desc + "\n" + primary + "\n" + localDate;
+                            test.set(i, goal);
+                            Collections.swap(test, 0, test.size()-1);
+                        }
+                    }
+                }
+            }
+
+            @Override
+            public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {}
+
+            @Override
+            public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {}
+
+            @Override
+            public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {}
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {}
+        });
+
+
+
+
+
+    }
+
+
+
+
 }

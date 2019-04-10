@@ -59,6 +59,9 @@ attr actionOverflowMenuStyle
 attr actionProviderClass
 attr actionViewClass
 attr activityChooserViewStyle
+attr adSize
+attr adSizes
+attr adUnitId
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
@@ -1202,7 +1205,6 @@ id icon_only
 id ifRoom
 id image
 id imageView
-id imgCircle
 id inches
 id info
 id invisible
@@ -1219,6 +1221,7 @@ id linearLayout2
 id listMode
 id list_item
 id login_progress
+id main_goal
 id masked
 id media_actions
 id message
@@ -1248,6 +1251,7 @@ id password
 id pause_workout_button
 id percent
 id pin
+id primary_goal
 id progress_circular
 id progress_horizontal
 id radio
@@ -1312,7 +1316,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView2
 id textViewUserEmail
 id text_input_password_toggle
 id textinput_counter
@@ -1547,6 +1550,13 @@ string project_id
 string prompt_confirm_password
 string prompt_email
 string prompt_password
+string s1
+string s2
+string s3
+string s4
+string s5
+string s6
+string s7
 string search_menu_title
 string start_workout_button
 string status_bar_notification_info_overflow
@@ -1895,6 +1905,7 @@ style Theme_Design_Light
 style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
+style Theme_IAPTheme
 style Theme_MaterialComponents
 style Theme_MaterialComponents_BottomSheetDialog
 style Theme_MaterialComponents_Bridge
@@ -2062,6 +2073,7 @@ styleable ActionMenuItemView android_minWidth
 styleable ActionMenuView
 styleable ActionMode background backgroundSplit closeItemLayout height subtitleTextStyle titleTextStyle
 styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivityCount
+styleable AdsAttrs adSize adSizes adUnitId
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable AnimatedStateListDrawableItem android_id android_drawable

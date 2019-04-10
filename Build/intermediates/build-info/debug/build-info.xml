@@ -2,92 +2,91 @@
 <instant-run
     abi="x86"
     api-level="29"
-    build-mode="COLD"
+    build-mode="FULL"
     density="420dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.3.2"
-    timestamp="1554258264114"
+    timestamp="1554928078946"
     token="-2642939749776834231"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="199" />
+        duration="1971" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="16" />
+        duration="466" />
     <task
         name="verifier"
-        duration="3" />
+        duration="127" />
 
     <artifact
         location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
+    <artifact
+        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/resources/instant-run/debug/resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1554255608188"
+        timestamp="1554928078946"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
+            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1554257988724"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -96,23 +95,17 @@
             location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1554258264114"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
+            location="/home/jortiz/Documents/Projects/SEP/Build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
