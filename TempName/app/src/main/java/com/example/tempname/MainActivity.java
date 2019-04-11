@@ -46,6 +46,8 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.Locale;
 
+import static android.text.TextUtils.substring;
+
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -229,11 +231,13 @@ public class MainActivity extends AppCompatActivity
                 String desc = dataSnapshot.child("description").getValue().toString().trim();
                 int primary = Integer.parseInt(dataSnapshot.child("primary").getValue().toString().trim());
                 String localDate = dataSnapshot.child("date").toString().trim();
+                localDate = localDate.split(",")[1].split("=")[1].trim();
+                localDate = substring(localDate,0,localDate.length()-2);
                 String goal = name + "\n" + desc + "\n" + primary + "\n" + localDate;
                 test.add(goal);
                 if(primary == 1 & !goal.isEmpty() & goal != null){
                     try {
-                        set(goal);
+                        set(name, desc, localDate);
                     } catch (ParseException e) {
                         e.printStackTrace();
                     }
@@ -257,24 +261,13 @@ public class MainActivity extends AppCompatActivity
     }
 
     @RequiresApi(api = Build.VERSION_CODES.O)
-    private void set(String goal) throws ParseException {
-        String [] goalInfo = goal.split("\n");
+    private void set(String name, String desc, String localDate) throws ParseException {
 
-        String name = goalInfo[0];
-        String description = goalInfo[1];
-        String unpDate = goalInfo[3].split(",")[1].split("=")[1].trim();
-        String date = unpDate.substring(0,unpDate.length()-2);
-        LocalDate start = LocalDate.parse(date);
-
+        LocalDate start = LocalDate.parse(localDate);
         Period period = Period.between(start, LocalDate.now());
         int diff = period.getDays();
 
-        System.out.println("*********************************************************************************************************");
-        System.out.println(diff);
-
-
-
-        mainGoal.setText(name + "\n\n" + description + "\n\nDays: " + diff);
+        mainGoal.setText(name + "\n\n" + desc + "\n\nDays: " + diff);
     }
 
 
