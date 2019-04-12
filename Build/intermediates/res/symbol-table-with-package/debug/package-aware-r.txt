@@ -1206,6 +1206,7 @@ id icon_only
 id ifRoom
 id image
 id imageView
+id imageView3
 id inches
 id info
 id invisible
@@ -1219,6 +1220,7 @@ id line1
 id line3
 id linearLayout
 id linearLayout2
+id linearLayout4
 id listMode
 id list_item
 id login_progress
@@ -1452,6 +1454,8 @@ menu main
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+mipmap loginicon
+mipmap loginicon_round
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
