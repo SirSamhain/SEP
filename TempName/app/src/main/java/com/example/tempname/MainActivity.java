@@ -86,6 +86,10 @@ public class MainActivity extends AppCompatActivity
             showPrimaryGoal();
         }
         //IF THE USER IS LOGGED OUT THEN IT RETURNS THEM TO THE LOGIN PAGE
+        System.out.println("********************************************************************************************");
+        System.out.println("********************************************************************************************");
+        System.out.println("********************************************************************************************");
+        System.out.println("user = " + firebaseAuth.getCurrentUser());
         if(firebaseAuth.getCurrentUser() == null){
             Toast.makeText(MainActivity.this, "Logged Out!", Toast.LENGTH_SHORT).show();
             finish();
@@ -208,7 +212,6 @@ public class MainActivity extends AppCompatActivity
                     String name = dataSnapshot.child("name").getValue().toString().trim();
                     textViewUserName.setText(name);
                 }else {
-                    Toast.makeText(MainActivity.this, "No Name", Toast.LENGTH_SHORT).show();
                     textViewUserName.setText("no name");
                 }
             }

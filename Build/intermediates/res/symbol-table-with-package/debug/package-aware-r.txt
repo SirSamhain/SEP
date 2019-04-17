@@ -1091,6 +1091,7 @@ id META
 id SHIFT
 id SYM
 id _dynamic
+id about_us_button
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1159,6 +1160,7 @@ id customPanel
 id dark
 id decor_content_parent
 id default_activity_button
+id delete_account_button
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1258,6 +1260,7 @@ id primary_goal
 id progress_circular
 id progress_horizontal
 id radio
+id rate_us_button
 id remove_goal
 id remove_workout
 id reset_button
@@ -1285,7 +1288,6 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
-id settings_listview
 id shortcut
 id showCustom
 id showHome
