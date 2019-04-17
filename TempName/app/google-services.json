@@ -1,39 +1,37 @@
 {
   "project_info": {
-    "project_number": "1074483430795",
-    "firebase_url": "https://achieve-65076.firebaseio.com",
-    "project_id": "achieve-65076",
-    "storage_bucket": "achieve-65076.appspot.com"
+    "project_number": "259935787524",
+    "firebase_url": "https://achieve-a9049.firebaseio.com",
+    "project_id": "achieve-a9049",
+    "storage_bucket": "achieve-a9049.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1074483430795:android:5798f66ae48c59e4",
+        "mobilesdk_app_id": "1:259935787524:android:5798f66ae48c59e4",
         "android_client_info": {
           "package_name": "com.example.tempname"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1074483430795-6q9n0r06eqd40ad2vrljtlcti1rdj5ii.apps.googleusercontent.com",
+          "client_id": "259935787524-ervd29ch8u56hh3ta0rjgbvqdchsj1ps.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCVZRdNn_DpuYzb7gztO__irX7K_gE1X3c"
+          "current_key": "AIzaSyA-0xZ0dydBsuen04DosP92R47K3lTt2EM"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259935787524-ervd29ch8u56hh3ta0rjgbvqdchsj1ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

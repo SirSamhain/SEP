@@ -112,6 +112,10 @@ public class RegisterActivity extends AppCompatActivity {
                     startActivity(intent);
                 }else{
                     Toast.makeText(RegisterActivity.this, "Uh oh :( Something went wrong", Toast.LENGTH_SHORT).show();
+                    System.out.println("========================================================================================");
+                    System.out.println("========================================================================================");
+                    System.out.println("========================================================================================");
+                    System.out.println(task.getResult());
                     progressDialog.dismiss();
                 }
             }
