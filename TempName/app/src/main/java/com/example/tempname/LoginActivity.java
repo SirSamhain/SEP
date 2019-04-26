@@ -16,6 +16,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseApp;
@@ -31,11 +35,22 @@ public class LoginActivity extends AppCompatActivity{
     // UI references.
     private AutoCompleteTextView autoCompleteTextViewEmail;
     private EditText editTextPassword;
+    private static final String APP_ID = "ca-app-pub-7245659941748351~3408187119";
+    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        MobileAds.initialize(this, APP_ID);
+        AdView adview = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adview.loadAd(adRequest);
+
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-7245659941748351/8917364782");
+        mInterstitialAd.loadAd(adRequest);
+
         // Set up the login form.
         FirebaseApp.initializeApp(this);
         firebaseAuth = FirebaseAuth.getInstance();
@@ -73,6 +88,12 @@ public class LoginActivity extends AppCompatActivity{
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(mInterstitialAd.isLoaded()) {
+                    mInterstitialAd.show();
+                }
+                else {
+                    //Do something else.
+                }
                 attemptLogin();
             }
         });

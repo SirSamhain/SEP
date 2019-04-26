@@ -1113,6 +1113,7 @@ id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
+id adView
 id add
 id add_goal
 id add_goal_button
